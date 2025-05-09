@@ -60,7 +60,7 @@ class Cat extends Animal implements Sound {
 // Main class
 public class Abstruction {
     public static void main(String[] args) {
-        Animal dog = new Dog("Buddy");
+        Animal dog = new Dog("Buggy");
         dog.showName();
         ((Sound) dog).makeSound();
         dog.move();
